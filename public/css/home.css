@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top:5rem;
+}
+.main img{
+    margin-top:3rem;
+}
+
+.main nav{
+    margin-top: 2rem;
+}
+.main nav ul{
+    list-style: none;
+}
+.main nav ul li{
+    margin-bottom:10px;
+}
